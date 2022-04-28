@@ -1,0 +1,1 @@
+every control is written in the same file as the stage register

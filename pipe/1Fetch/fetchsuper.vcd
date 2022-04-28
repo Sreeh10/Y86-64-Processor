@@ -1,0 +1,89 @@
+$date
+	Wed Mar  9 17:28:31 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fetchsupertb $end
+$scope module UUT $end
+$var wire 1 ! clk $end
+$var wire 64 " pc [63:0] $end
+$var wire 8 # split [7:0] $end
+$var wire 1 $ imem_error $end
+$var wire 72 % align [71:0] $end
+$var reg 4 & icode [3:0] $end
+$var reg 4 ' ifun [3:0] $end
+$var reg 1 ( instr_valid $end
+$var reg 1 ) need_regids $end
+$var reg 1 * need_valC $end
+$var reg 4 + rA [3:0] $end
+$var reg 4 , rB [3:0] $end
+$var reg 64 - valC [63:0] $end
+$var reg 64 . valP [63:0] $end
+$scope module imem $end
+$var wire 64 / pc [63:0] $end
+$var reg 72 0 align [71:0] $end
+$var reg 1 $ imem_error $end
+$var reg 8 1 split [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110000 1
+b11111110011 0
+b0 /
+b1010 .
+b111 -
+b11 ,
+b1111 +
+1*
+1)
+1(
+b0 '
+b11 &
+b11111110011 %
+0$
+b110000 #
+b0 "
+x!
+$end
+#10
+b1100 .
+b0 -
+b1 ,
+b11 +
+0*
+b10 &
+b100000001000000010000000100000001000000010000000000000001000000110001 %
+b100000001000000010000000100000001000000010000000000000001000000110001 0
+b100000 #
+b100000 1
+b1010 "
+b1010 /
+#20
+b1101 .
+b1111 ,
+b1111 +
+0)
+b1 &
+b100000001000000010000000100000001000000010000000100000001000000000000 %
+b100000001000000010000000100000001000000010000000100000001000000000000 0
+b10000 #
+b10000 1
+b1100 "
+b1100 /
+#30
+b1110 .
+b0 &
+b100000001000000010000000100000001000000010000000100000001000000010000 %
+b100000001000000010000000100000001000000010000000100000001000000010000 0
+b0 #
+b0 1
+b1101 "
+b1101 /
+#40
